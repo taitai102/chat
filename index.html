@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Realtime Chat</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="chat-container">
+        <ul id="messages"></ul>  <!-- メッセージを表示 -->
+        <input id="messageInput" type="text" placeholder="Type a message">
+        <button id="sendButton">Send</button>  <!-- メッセージ送信ボタン -->
+    </div>
+
+    <!-- Supabaseのクライアントライブラリを読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js"></script>
+    <!-- 自分のアプリケーションのJavaScriptファイル -->
+    <script src="app.js"></script>
+</body>
+</html>
